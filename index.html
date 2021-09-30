@@ -1,0 +1,43 @@
+<html>
+  <head>
+    <title>Vanilla JS</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+      integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
+  </head>
+  <body id="body">
+    <div class="header">    
+      <i class="fab fa-js-square"></i>
+      <i id="mob-navbar" class="fas fa-bars"></i>
+      <div class="search">
+        <i class="fas fa-search"></i>
+        <input id="search" placeholder="Buscar" class="input-search" type="search">
+      </div>
+      <i class="fas fa-user-circle"></i>
+    </div>
+    <div class="container">
+      <div class="navbar">
+        <ul>
+          <li id="all-button">
+            <i class="fas fa-th-large"></i>
+            Todos
+          </li>
+          <li id="attended-button">
+            <i class="fas fa-check-double"></i>
+            Atendidos
+          </li>
+          <li id="remove-button">
+            <i class="fas fa-trash"></i>
+            Lixeira
+          </li>
+        </ul>
+      </div>
+      <div class="container-table">
+        <table class="table"></table>
+      </div>
+    </div>
+  </body>
+  <script src="./listUsers.js"> </script>
+</html>
